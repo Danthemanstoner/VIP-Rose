@@ -108,8 +108,26 @@
         "color_text": ""
       }
     },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "collection": "",
+        "layout": "carousel",
+        "show_vendor": false,
+        "grid": 3,
+        "rows": 2,
+        "grid_mobile": "2",
+        "hide_swatches": false,
+        "alternate_bg_color": false,
+        "show_view_all": true
+      }
+    },
     "background-video": {
       "type": "background-video",
+      "custom_css": [
+        "h2 {color: black;}"
+      ],
       "settings": {
         "video_shopify": "shopify://files/videos/Gen-3 Alpha Turbo 3581295747, slowly sprout the ne, Cropped - 23-07-06_4, M 5.mp4",
         "video_external": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
@@ -130,19 +148,44 @@
         "overlay_style_tint": false
       }
     },
-    "featured-collection": {
-      "type": "featured-collection",
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "1601538737164-0": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "title": "Testimonial header",
+            "text": "<p>Use this text to elaborate on what your happy customers are saying. Use this section without the stars for unique text with image layouts.</p>",
+            "button_label": "Optional button",
+            "link": "",
+            "image1_caption": "",
+            "image2_caption": "",
+            "layout": "left"
+          }
+        },
+        "1601538737164-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "title": "Testimonial header",
+            "text": "<p>Use this text to elaborate on what your happy customers are saying. Use this section without the stars for unique text with image layouts.</p>",
+            "button_label": "Optional button",
+            "link": "",
+            "image1_caption": "",
+            "image2_caption": "",
+            "layout": "right"
+          }
+        }
+      },
+      "block_order": [
+        "1601538737164-0",
+        "1601538737164-1"
+      ],
       "settings": {
-        "title": "Featured collection",
-        "collection": "",
-        "layout": "carousel",
-        "show_vendor": false,
-        "grid": 3,
-        "rows": 2,
-        "grid_mobile": "2",
-        "hide_swatches": false,
-        "alternate_bg_color": false,
-        "show_view_all": true
+        "title": "",
+        "button_style": "secondary",
+        "alternate_bg_color": false
       }
     },
     "gallery": {
@@ -221,46 +264,6 @@
         "full_width": true,
         "enable_carousel": true,
         "overlay_style_tint": true,
-        "alternate_bg_color": false
-      }
-    },
-    "testimonials": {
-      "type": "testimonials",
-      "blocks": {
-        "1601538737164-0": {
-          "type": "testimonial",
-          "settings": {
-            "star_rating": 5,
-            "title": "Testimonial header",
-            "text": "<p>Use this text to elaborate on what your happy customers are saying. Use this section without the stars for unique text with image layouts.</p>",
-            "button_label": "Optional button",
-            "link": "",
-            "image1_caption": "",
-            "image2_caption": "",
-            "layout": "left"
-          }
-        },
-        "1601538737164-1": {
-          "type": "testimonial",
-          "settings": {
-            "star_rating": 5,
-            "title": "Testimonial header",
-            "text": "<p>Use this text to elaborate on what your happy customers are saying. Use this section without the stars for unique text with image layouts.</p>",
-            "button_label": "Optional button",
-            "link": "",
-            "image1_caption": "",
-            "image2_caption": "",
-            "layout": "right"
-          }
-        }
-      },
-      "block_order": [
-        "1601538737164-0",
-        "1601538737164-1"
-      ],
-      "settings": {
-        "title": "",
-        "button_style": "secondary",
         "alternate_bg_color": false
       }
     },
