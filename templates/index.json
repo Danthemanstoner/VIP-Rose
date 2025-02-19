@@ -108,6 +108,28 @@
         "color_text": ""
       }
     },
+    "background-video": {
+      "type": "background-video",
+      "settings": {
+        "video_shopify": "shopify://files/videos/Gen-3 Alpha Turbo 3581295747, slowly sprout the ne, Cropped - 23-07-06_4, M 5.mp4",
+        "video_external": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "subheading": "",
+        "title": "Experience The Magic",
+        "title_size": 60,
+        "title_width": 20,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": false,
+        "button_label": "",
+        "button_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "height": "fixed",
+        "height_desktop": 720,
+        "height_mobile": 400,
+        "full_width": true,
+        "overlay_style_tint": false
+      }
+    },
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
@@ -292,27 +314,6 @@
         "alternate_bg_color": true
       }
     },
-    "background-video": {
-      "type": "background-video",
-      "settings": {
-        "video_external": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "subheading": "Subheading",
-        "title": "Background video",
-        "title_size": 60,
-        "title_width": 12,
-        "heading_h1": false,
-        "text": "<p>Attract a customer's attention with auto-playing videos</p>",
-        "enlarge_text": false,
-        "button_label": "",
-        "button_link": "",
-        "overlay_position": "position--hcenter position--vcenter",
-        "height": "fixed",
-        "height_desktop": 620,
-        "height_mobile": 500,
-        "full_width": true,
-        "overlay_style_tint": true
-      }
-    },
     "image-with-text": {
       "type": "image-with-text",
       "settings": {
@@ -490,10 +491,10 @@
     "slideshow",
     "rich-text",
     "featured-collection",
-    "gallery",
-    "testimonials",
-    "collection-list",
     "background-video",
+    "testimonials",
+    "gallery",
+    "collection-list",
     "image-with-text",
     "text-columns-with-images",
     "scrolling-banner",
