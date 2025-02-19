@@ -125,9 +125,7 @@
     },
     "background-video": {
       "type": "background-video",
-      "custom_css": [
-        "h2 {color: black;}"
-      ],
+      "custom_css": [],
       "settings": {
         "video_shopify": "shopify://files/videos/Gen-3 Alpha Turbo 3581295747, slowly sprout the ne, Cropped - 23-07-06_4, M 5.mp4",
         "video_external": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
