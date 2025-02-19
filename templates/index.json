@@ -85,6 +85,9 @@
     },
     "rich-text": {
       "type": "rich-text",
+      "custom_css": [
+        "#section-id-template--17861435850934__rich-text .section-spacing.wide-container {margin-top: 50px !important; margin-bottom: 50px !important; padding-top: 0 !important; padding-bottom: 0 !important;}"
+      ],
       "settings": {
         "subheading": "",
         "title": "Why Choose VIP Rose Bangkok?",
