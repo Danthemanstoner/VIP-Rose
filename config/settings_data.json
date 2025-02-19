@@ -104,7 +104,9 @@
     "sections": {
       "header": {
         "type": "header",
-        "custom_css": [],
+        "custom_css": [
+          ".cc-announcement__inner {margin-left: -18px;}"
+        ],
         "settings": {
           "menu_linklist": "main-menu",
           "nav_featured_link": "Sale",
