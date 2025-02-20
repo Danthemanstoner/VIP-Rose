@@ -56,7 +56,7 @@
     "collection_show_product_count": true,
     "swatch_enabled": true,
     "swatch_method": "image",
-    "prod_block_swatches": false,
+    "prod_block_swatches": true,
     "swatch_use_prod_images": true,
     "swatch_prod_images_shape": "natural",
     "type_base_font": "nunito_sans_n4",
