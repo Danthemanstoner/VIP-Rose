@@ -13563,3 +13563,23 @@ body {
 /*************    ---                   ---                   ---   *************/
 /*************    |     ENTER YOUR CUSTOM CODE BELOW HERE       |   *************/
 /*************    ---                   ---                   ---   *************/
+
+@keyframes wiggle {
+  0% { transform: rotate(0deg); }
+  15% { transform: rotate(-5deg); }
+  30% { transform: rotate(5deg); }
+  45% { transform: rotate(-3deg); }
+  60% { transform: rotate(3deg); }
+  75% { transform: rotate(-2deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.button.hover-grow {
+  display: inline-block;
+  animation: wiggle 1s ease-in-out infinite; /* Continuous wiggle */
+}
+
+/* Optional: Wiggle only on hover */
+.button.hover-grow:hover {
+  animation: wiggle 0.5s ease-in-out infinite;
+}
