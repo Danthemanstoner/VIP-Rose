@@ -108,6 +108,68 @@
         "color_text": ""
       }
     },
+    "accordions_3eFK7R": {
+      "type": "accordions",
+      "blocks": {
+        "accordion_ehjDEa": {
+          "type": "accordion",
+          "settings": {
+            "icon": "award",
+            "title": "Unmatched Quality",
+            "text": "<p>We hand-select only the finest roses to ensure long-lasting freshness and vibrant beauty.</p>",
+            "open": false
+          }
+        },
+        "accordion_exg37V": {
+          "type": "accordion",
+          "settings": {
+            "icon": "gift",
+            "title": "Wholesale & Retail",
+            "text": "<p>Whether you need large quantities for business or a special bouquet for a loved one, we cater to all needs.</p>",
+            "open": false
+          }
+        },
+        "accordion_De6DTr": {
+          "type": "accordion",
+          "settings": {
+            "icon": "truck",
+            "title": "Fast & Reliable Delivery",
+            "text": "<p>With a seamless ordering process and efficient logistics, we deliver roses <strong>quickly and safely</strong> across Thailand.</p>",
+            "open": false
+          }
+        },
+        "accordion_hrRyLT": {
+          "type": "accordion",
+          "settings": {
+            "icon": "star",
+            "title": "Trusted by Professionals",
+            "text": "<p>Leading florists, wedding planners, and luxury brands rely on our roses to create stunning floral arrangements.</p>",
+            "open": false
+          }
+        },
+        "accordion_GYgkYJ": {
+          "type": "accordion",
+          "settings": {
+            "icon": "plane",
+            "title": "Exclusive Imports",
+            "text": "<p>We bring in unique, premium rose varieties that you won’t find anywhere else in Thailand.</p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "accordion_ehjDEa",
+        "accordion_exg37V",
+        "accordion_De6DTr",
+        "accordion_hrRyLT",
+        "accordion_GYgkYJ"
+      ],
+      "settings": {
+        "title": "Find Out More...",
+        "alternate_bg_color": false,
+        "view_all_page": ""
+      }
+    },
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
@@ -491,6 +553,7 @@
   "order": [
     "slideshow",
     "rich-text",
+    "accordions_3eFK7R",
     "featured-collection",
     "background-video",
     "testimonials",
