@@ -14963,17 +14963,16 @@ body {
 }
 
 .line-3 .button.hover-grow {
-    background-color: #d7a4a5 !important;
+    background-color: pink !important;
     color: white !important; /* Ensures text is readable */
     padding: 10px 20px;
     border-radius: 5px; /* Optional: Rounded corners */
     display: inline-block;
     text-align: center;
     font-weight: bold;
-    transition: transform 0.2s ease-in-out;
+    border: none !important; /* Removes any border */
+    outline: none !important; /* Removes white outline */
+    box-shadow: none !important; /* Removes any shadow */
+    animation: wiggle 1s ease-in-out infinite; /* Wiggle runs all the time */
 }
 
-/* Add the wiggle effect */
-.line-3 .button.hover-grow:hover {
-    animation: wiggle 0.5s ease-in-out infinite;
-}
