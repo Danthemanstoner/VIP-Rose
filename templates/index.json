@@ -112,7 +112,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Featured collection",
-        "collection": "",
+        "collection": "roses-test",
         "layout": "carousel",
         "show_vendor": false,
         "grid": 3,
