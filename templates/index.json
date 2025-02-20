@@ -72,10 +72,10 @@
       ],
       "settings": {
         "height": "fixed",
-        "height_desktop": 740,
-        "height_mobile": 680,
+        "height_desktop": 700,
+        "height_mobile": 500,
         "full_width": true,
-        "mobile_overlay_under": false,
+        "mobile_overlay_under": true,
         "overlay_style_tint": true,
         "slide_transition": "zoom",
         "slide_navigation": "none",
