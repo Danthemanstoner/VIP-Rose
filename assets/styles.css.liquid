@@ -248,6 +248,20 @@ File structure:
     opacity: 1;
   }
 }
+@keyframes wiggle {
+  0% { transform: rotate(0deg) scale(1.06); }
+  25% { transform: rotate(-3deg) scale(1.06); }
+  75% { transform: rotate(3deg) scale(1.06); }
+  100% { transform: rotate(0deg) scale(1.06); }
+}
+
+button.hover-grow:not([disabled=disabled]):hover,
+input[type=submit].hover-grow:not([disabled=disabled]):hover,
+.button.hover-grow:not([disabled=disabled]):hover {
+  // Replace the existing transform with animation
+  animation: wiggle 0.5s ease-in-out;
+  transform-origin: center center;
+}
 /* normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -2361,7 +2375,8 @@ input[type=submit]:not(.hover-grow):not(.no-hover):not(input[type=submit].textbu
 button.hover-grow:not([disabled=disabled]):hover,
 input[type=submit].hover-grow:not([disabled=disabled]):hover,
 .button.hover-grow:not([disabled=disabled]):hover {
-  transform: scale(1.06);
+  animation: wiggle 0.5s ease-in-out;
+  transform-origin: center center;
 }
 button.alt,
 input[type=submit].alt,
@@ -6470,6 +6485,10 @@ body:not(.user-is-tabbing) .site-control .nav-right-side .localization .disclosu
     max-height: none;
   }
   .no-js .site-control.nav-inline-desktop .site-control__inner .nav-row .contains-children:focus-within .nav-columns a,
+.no-js .site-control.nav-inline-desktop .site-control__inner .nav-row .contains-children:focus-within .nav-rows a {
+    color: inherit;
+  }
+  .no-js .site-control.nav-inline-desktop .site-control__inner .nav-row .contains-children:focus-within .nav-columns ul,
 .no-js .site-control.nav-inline-desktop .site-control__inner .nav-row .contains-children:focus-within .nav-rows a {
     color: inherit;
   }
@@ -11278,47 +11297,15 @@ gift-card-recipient ::placeholder {
 .video-container .video-container__play svg polygon {
   fill: #fff;
 }
-
-.section-video .rte, .section-video #comments, .section-video #template, .section-video #address_tables {
-  margin-bottom: 20px;
-}
-@media (max-width: 767px) {
-  .section-video .overlay-type {
-    padding-top: {{ wide_content_gutters_md }}px !important;
-    padding-bottom: {{ wide_content_gutters_md }}px !important;
-  }
-}
-.section-video .video-container .video-container__play {
-  position: static;
-  margin: 0;
-}
-@media (max-width: 767px) {
-  .section-video .video-container .video-container__play {
-    margin-top: -10px;
-  }
-}
-.section-video .video-container .video-container__play svg {
-  stroke: {{ image_overlay_text }};
-  margin: -4px 4px 0 7px;
-  padding-right: 4px;
-}
-@media (min-width: 768px) {
-  .section-video .video-container .video-container__play svg {
-    margin: -5px 5px 0 -4px;
-  }
-}
-.section-video .video-container .video-container__play svg polygon {
-  fill: {{ image_overlay_text }};
-}
-.section-video .video-container .video-container__stop {
+.video-container .video-container__stop {
   display: none;
 }
 @media (max-width: 767px) {
-  .section-video .video-container.video-container--modal-mobile {
+  .video-container.video-container--modal-mobile {
     padding-bottom: 0 !important;
     height: auto;
   }
-  .section-video .video-container.video-container--modal-mobile::before {
+  .video-container.video-container--modal-mobile::before {
     content: "";
     position: fixed;
     top: 0;
@@ -11331,7 +11318,7 @@ gift-card-recipient ::placeholder {
     opacity: 0;
     transition: opacity 350ms;
   }
-  .section-video .video-container.video-container--modal-mobile .video-container__video {
+  .video-container.video-container--modal-mobile .video-container__video {
     position: fixed;
     z-index: 10001;
     top: 50%;
@@ -11345,7 +11332,7 @@ gift-card-recipient ::placeholder {
     background: #000;
     transition: opacity 350ms;
   }
-  .section-video .video-container.video-container--modal-mobile .video-container__stop {
+  .video-container.video-container--modal-mobile .video-container__stop {
     display: block;
     position: fixed;
     top: 0;
@@ -11357,53 +11344,53 @@ gift-card-recipient ::placeholder {
     opacity: 0;
     transition: opacity 350ms;
   }
-  .section-video .video-container.video-container--modal-mobile .video-container__stop svg {
+  .video-container.video-container--modal-mobile .video-container__stop svg {
     stroke: currentColor;
     height: 29px;
     width: 29px;
   }
-  .section-video .video-container.video-container--modal-mobile .overlay-type {
+  .video-container.video-container--modal-mobile .overlay-type {
     position: relative;
     height: auto;
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .section-video .video-container[data-video-type=mp4] .video-container__video {
+  .video-container[data-video-type=mp4] .video-container__video {
     padding: 0;
     height: 100%;
   }
-  .section-video .video-container[data-video-type=mp4] .video-container__video video {
+  .video-container[data-video-type=mp4] .video-container__video video {
     object-fit: contain;
   }
 }
-.section-video .video-container.video-container--playing::before,
-.section-video .video-container.video-container--playing .video-container__video,
-.section-video .video-container.video-container--playing .video-container__stop {
+.video-container.video-container--playing::before,
+.video-container.video-container--playing .video-container__video,
+.video-container.video-container--playing .video-container__stop {
   opacity: 1;
   pointer-events: auto;
 }
-.section-video .video-container.video-container--playing .video-container__cover {
+.video-container.video-container--playing .video-container__cover {
   opacity: 0;
   visibility: hidden;
 }
-.section-video .video-container.video-container--playing .video-container__cover + .overlay-type {
+.video-container.video-container--playing .video-container__cover + .overlay-type {
   opacity: 0;
   visibility: hidden;
 }
-.section-video .video-container.video-container--playing.image-overlay--bg-full::after {
+.video-container.video-container--playing.image-overlay--bg-full::after {
   opacity: 0;
 }
-.section-video .video-container .video-container__video {
+.video-container .video-container__video {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 100%;
 }
-.section-video .video-container .video-container__video iframe,
-.section-video .video-container .video-container__video object,
-.section-video .video-container .video-container__video embed,
-.section-video .video-container .video-container__video video {
+.video-container .video-container__video iframe,
+.video-container .video-container__video object,
+.video-container .video-container__video embed,
+.video-container .video-container__video video {
   position: absolute;
   top: 0;
   left: 0;
