@@ -164,7 +164,9 @@
         "accordion_hrRyLT",
         "accordion_GYgkYJ"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "#section-id-template--17861435850934__accordions_3eFK7R {margin-top: 20px !important; margin-bottom: 20px !important; padding-top: 0 !important; padding-bottom: 0 !important;}"
+      ],
       "settings": {
         "title": "Reasons To Use Us",
         "alternate_bg_color": false,
