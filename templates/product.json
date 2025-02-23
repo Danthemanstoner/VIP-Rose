@@ -46,7 +46,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "variant_style": "underlined",
+            "variant_style": "dropdown",
             "show_realtime_availability": true,
             "show_size_chart": false,
             "size_chart_variant": "Size",
@@ -68,7 +68,7 @@
           "type": "buy_buttons",
           "settings": {
             "show_quantity_selector": true,
-            "enable_payment_button": true,
+            "enable_payment_button": false,
             "show_pickup_availability": true,
             "enable_mobile_sticky_cart": true,
             "show_gift_card_recipient": false
