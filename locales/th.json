@@ -13,7 +13,14 @@
       "redeem": "ใช้รหัสนี้ตอนชำระเงินเพื่อแลกรับบัตรของขวัญของคุณ",
       "add_to_apple_wallet": "เพิ่มไปยัง Apple Wallet",
       "print": "พิมพ์",
-      "shop_link": "เริ่มต้นการช้อปปิ้ง"
+      "shop_link": "เริ่มต้นการช้อปปิ้ง",
+      "title": "นี่คือบัตรของขวัญ {{ value }} ของคุณสำหรับ {{ shop }} !",
+      "subtext": "นี่คือบัตรของขวัญของคุณ!",
+      "disabled": "พิการ",
+      "expired": "หมดอายุเมื่อ {{ expiry }}",
+      "active": "หมดอายุในวันที่ {{ expiry }}",
+      "initial_value_html": "มูลค่าบัตรของขวัญ: {{ value }}",
+      "remaining_html": "เหลือ {{ balance }}"
     },
     "recipient": {
       "checkbox": "ฉันต้องการส่งสิ่งนี้เป็นของขวัญ",
@@ -296,6 +303,171 @@
       "pick_up_available": "มีบริการรับสินค้า",
       "pick_up_currently_unavailable": "ไม่สามารถรับสินค้าได้ในขณะนี้",
       "invalid_location_address": "ติดต่อร้านค้าเพื่อยืนยันที่อยู่"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "general": {
+        "errors": {
+          "buyer_identity": {
+            "company_purchase_permission_required": "ลูกค้าไม่มีสิทธิในการสั่งซื้อสินค้ากับบริษัท",
+            "personal_order_not_allowed": "ร้านค้านี้ไม่อนุญาตให้ทำการสั่งซื้อสินค้าส่วนตัว"
+          }
+        }
+      }
+    }
+  },
+  "customer_accounts": {
+    "shop_ads": {
+      "subtitle": "มีจำหน่ายเฉพาะเวลาจำกัด",
+      "button": "สำรวจร้านค้า"
+    }
+  },
+  "general": {
+    "404": {
+      "title": "ไม่พบหน้า 404",
+      "subtext": "หน้าที่คุณร้องขอไม่มีอยู่",
+      "link": "ดำเนินการช้อปต่อ"
+    },
+    "search": {
+      "page_placeholder": "พิมพ์เพื่อค้นหา",
+      "input_label": "ค้นหา",
+      "search_button": "ค้นหา",
+      "title": "ค้นหา",
+      "submit": "ค้นหา",
+      "sort_title": "จัดเรียงตาม",
+      "filtering": {
+        "mobile_close": "ปิดตัวกรอง",
+        "mobile_reveal": "แสดงตัวกรอง",
+        "show_results": "แสดงผลลัพธ์ [x]",
+        "show_results_singular": "แสดงผล [x]",
+        "clear_all": "ล้างทั้งหมด"
+      },
+      "no_results_title": "ไม่มีผลลัพธ์การค้นหา"
+    },
+    "accessibility_labels": {
+      "video_play": "ชมภาพยนตร์",
+      "previous": "ก่อนหน้า",
+      "next": "ต่อไป",
+      "close": "ปิด",
+      "load_more": "โหลดเพิ่มเติม",
+      "skip_to_content": "ข้ามไปยังเนื้อหา",
+      "star_reviews_info": "{{ rating_value }} จากทั้งหมด {{ rating_max }} ดาว",
+      "total_reviews": "รีวิวทั้งหมด"
+    },
+    "meta": {
+      "tags": "แท็ก \" {{ tags }} \"",
+      "page": "หน้า {{ page }}"
+    },
+    "lightbox": {
+      "previous": "ก่อนหน้า",
+      "next": "ต่อไป",
+      "close": "ปิด"
+    },
+    "slider": {
+      "images": "แถบเลื่อนรูปภาพ"
+    },
+    "navigation": {
+      "main_navigation_aria_label": "การนำทางหลัก"
+    },
+    "signup": {
+      "email_label": "อีเมล",
+      "subscribe": "สมัครสมาชิก"
+    },
+    "social": {
+      "share_on_facebook": "แชร์บนเฟสบุ๊ค",
+      "share_on_twitter": "แชร์บน Twitter",
+      "share_heading": "แบ่งปัน",
+      "share_on_pinterest": "ปักหมุดไว้"
+    },
+    "newsletter": {
+      "success": "ขอบคุณสำหรับการลงทะเบียน!"
+    },
+    "popup_section": {
+      "success": "ขอบคุณสำหรับการลงทะเบียน!",
+      "email_placeholder": "อีเมล์ของคุณ",
+      "submit": "สมัครสมาชิก"
+    },
+    "country": {
+      "dropdown_label": "สกุลเงิน"
+    },
+    "language": {
+      "dropdown_label": "ภาษา"
+    }
+  },
+  "onboarding": {
+    "product": {
+      "title": "สินค้าแนะนำ",
+      "vendor": "ผู้ขาย",
+      "product_title": "ชื่อผลิตภัณฑ์"
+    },
+    "blog": {
+      "empty": "คุณยังไม่มีบทความใดๆ! เมื่อคุณเขียนบทความเสร็จแล้ว บทความนั้นจะแสดงที่นี่"
+    },
+    "article": {
+      "author": "ชื่อผู้เขียน",
+      "title": "หัวข้อบทความของคุณ",
+      "excerpt": "คุณสามารถใช้บล็อกเพื่อพูดคุยเกี่ยวกับการเปิดตัวผลิตภัณฑ์ใหม่ เคล็ดลับ หรือข่าวสารอื่นๆ ที่คุณต้องการแชร์กับลูกค้าได้"
+    },
+    "collection": {
+      "title": "ของสะสม"
+    }
+  },
+  "products": {
+    "product": {
+      "add_to_cart": "เพิ่มลงในตะกร้า",
+      "view_in_space": "ดูในพื้นที่ของคุณ",
+      "reviews_link": {
+        "one": "ทบทวน",
+        "other": "บทวิจารณ์"
+      },
+      "description": "คำอธิบาย",
+      "sku": "รหัสสินค้า:",
+      "size_chart": "คู่มือขนาด",
+      "selector_label": "ตัวเลือก",
+      "quantity": "ปริมาณ",
+      "preorder": "สั่งซื้อล่วงหน้า",
+      "reviews_tab": "บทวิจารณ์",
+      "view_details": "ดูรายละเอียดสินค้า",
+      "unit_price_separator": " - ",
+      "adding_to_cart": "การเพิ่ม",
+      "added_to_cart": "เพิ่มลงในตะกร้า",
+      "popup_was_added": "ถูกเพิ่มลงในตะกร้าของคุณแล้ว",
+      "popup_checkout": "เช็คเอาท์",
+      "popup_continue_shopping": "ดำเนินการช้อปต่อ",
+      "backorder": "เป็นสินค้าพรีออเดอร์และจะจัดส่งทันทีเมื่อมีในคลัง",
+      "sale": "ขาย"
+    },
+    "general": {
+      "include_taxes": "รวมภาษีแล้ว",
+      "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">ค่าจัดส่ง</a> จะคำนวณเมื่อชำระเงิน"
+    },
+    "labels": {
+      "only_x_left": "มีสินค้าในสต๊อก {{ quantity }}",
+      "low_stock": "สต๊อกน้อย",
+      "in_stock": "มีสินค้าในสต๊อก",
+      "sold_out": "ขายหมดแล้ว",
+      "new_in": "ใหม่ใน"
+    },
+    "quick_buy": {
+      "read_more": "รายละเอียดเพิ่มเติม"
+    },
+    "variant": {
+      "non_existent": "ไม่สามารถใช้งานได้",
+      "out_of_stock": "สินค้าหมด",
+      "no_stock": "ขายหมดแล้ว"
+    },
+    "listing": {
+      "loading": "กำลังโหลด...",
+      "quick_view": "ดูอย่างรวดเร็ว",
+      "from": "จาก",
+      "sold_out": "ขายหมดแล้ว"
+    }
+  },
+  "homepage": {
+    "onboarding": {
+      "product_type": "ประเภทสินค้า",
+      "body": "Lorem ipsum dolor นั่ง amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   }
 }
