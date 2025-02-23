@@ -33,6 +33,7 @@
         },
         "rating": {
           "type": "rating",
+          "disabled": true,
           "settings": {}
         },
         "variant_picker": {
@@ -52,7 +53,7 @@
             "show_inventory_notice": "low",
             "show_inventory_count": "low",
             "show_inventory_indicator_bar": true,
-            "col_indicator_below": "#DD9A1A",
+            "col_indicator_below": "#dd9a1a",
             "col_indicator_above": "#108043"
           }
         },
@@ -73,11 +74,11 @@
             "show_product_reviews": false,
             "custom_reviews": "",
             "tab_2_page": "",
-            "tab_2_title": "",
-            "tab_2_content": "",
+            "tab_2_title": "How to care",
+            "tab_2_content": "<p>here is the content</p>",
             "tab_3_page": "",
-            "tab_3_title": "",
-            "tab_3_content": "",
+            "tab_3_title": "Shipping & Returns",
+            "tab_3_content": "<p>Information here</p>",
             "tab_4_page": "",
             "tab_4_title": "",
             "tab_4_content": ""
