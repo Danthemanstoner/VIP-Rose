@@ -1,0 +1,181 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "gift_cards": {
+    "issued": {
+      "redeem": "ใช้รหัสนี้ตอนชำระเงินเพื่อแลกรับบัตรของขวัญของคุณ",
+      "add_to_apple_wallet": "เพิ่มไปยัง Apple Wallet",
+      "print": "พิมพ์",
+      "shop_link": "เริ่มต้นการช้อปปิ้ง"
+    },
+    "recipient": {
+      "checkbox": "ฉันต้องการส่งสิ่งนี้เป็นของขวัญ",
+      "email_label_required": "อีเมล์ผู้รับ",
+      "email_label_optional": "อีเมลผู้รับ (ไม่บังคับ)",
+      "name_label": "ชื่อผู้รับ (ไม่บังคับ)",
+      "message_label": "ข้อความ (ไม่บังคับ)",
+      "max_characters": "สูงสุด {{ max_chars }} ตัวอักษร",
+      "send_on_label": "ส่งไปที่ (ทางเลือก)"
+    }
+  },
+  "map": {
+    "errors": {
+      "address_error": "เกิดข้อผิดพลาดในการค้นหาที่อยู่ดังกล่าว",
+      "address_no_results": "ไม่มีผลลัพธ์สำหรับที่อยู่นั้น",
+      "address_query_limit_html": "คุณใช้ Google API เกินขีดจำกัดแล้ว โปรดพิจารณาอัปเกรดเป็น <a href=\"https://developers.google.com/maps/premium/usage-limits\">แผนพรีเมียม</a>",
+      "auth_error": "มีปัญหากับการตรวจสอบยืนยันรหัส Google Maps API ของคุณ"
+    }
+  },
+  "layout": {
+    "navigation": {
+      "back": "กลับ",
+      "home": "บ้าน",
+      "cart": "รถเข็น"
+    },
+    "cart_summary": {
+      "cart": "ดูรถเข็น"
+    },
+    "footer": {
+      "navigation_aria_label": "การนำทางรอง"
+    },
+    "signup": {
+      "post_success": "ขอบคุณสำหรับการลงทะเบียน!",
+      "placeholder": "กรอกอีเมล์",
+      "input_label": "อีเมล",
+      "submit": "สมัครสมาชิก"
+    },
+    "header": {
+      "menu": "เมนู",
+      "search": "ค้นหา",
+      "close_mobile_nav_aria_label": "ปิดการนำทาง",
+      "menu_aria_label": "หลัก"
+    },
+    "customer": {
+      "account": "บัญชี",
+      "log_out": "ออกจากระบบ"
+    }
+  },
+  "cart": {
+    "terms": {
+      "confirmation": "คุณต้องยอมรับข้อกำหนดและเงื่อนไขก่อนดำเนินการต่อ",
+      "agreement_html": "ฉันยอมรับ <a href=\"&lt;span%20class='notranslate'&gt;{{%20terms_url%20}}&lt;/span&gt;\" target=\"_blank\">เงื่อนไขและนโยบายการคืนเงิน</a>"
+    },
+    "general": {
+      "title": "ตะกร้าสินค้า",
+      "price": "ราคา",
+      "quantity": "ปริมาณ",
+      "total": "ทั้งหมด",
+      "empty": "รถเข็นของคุณว่างเปล่าขณะนี้",
+      "continue_browsing": "ดำเนินการช้อปต่อ",
+      "update": "อัพเดทตะกร้าสินค้า",
+      "continue": "ดำเนินการช้อปต่อ",
+      "subtotal": "ยอดรวมย่อย",
+      "taxes_included_and_shipping_policy_html": "รวมภาษีแล้ว <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">ค่าจัดส่ง</a> คิดเมื่อชำระเงิน",
+      "taxes_included_but_shipping_at_checkout": "รวมภาษีแล้วและค่าจัดส่งคิดเมื่อชำระเงิน",
+      "taxes_and_shipping_policy_at_checkout_html": "ภาษีและ <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">ค่าจัดส่ง</a> คิดคำนวณเมื่อชำระเงิน",
+      "taxes_and_shipping_at_checkout": "ภาษีและค่าจัดส่งคิดคำนวณเมื่อชำระเงิน",
+      "checkout": "เช็คเอาท์",
+      "backorder": "สินค้าอยู่ในสถานะสั่งซื้อล่วงหน้าและจะจัดส่งทันทีเมื่อมีในคลังอีกครั้ง",
+      "decrease": "ลด",
+      "increase": "เพิ่มขึ้น",
+      "remove": "ลบ"
+    },
+    "label": {
+      "note": "เพิ่มหมายเหตุลงในคำสั่งซื้อของคุณ"
+    }
+  },
+  "collections": {
+    "general": {
+      "infinite_scroll_no_more": "ไม่มีผลลัพธ์เพิ่มเติม",
+      "view_all": "ดูทั้งหมด",
+      "view": "ดู",
+      "product_count": {
+        "one": "สินค้า {{ count }} ชิ้น",
+        "other": "สินค้า {{ count }} รายการ"
+      },
+      "no_matches": "ขออภัยไม่มีสินค้าในคอลเลคชั่นนี้"
+    },
+    "filtering": {
+      "clear_all": "ล้างทั้งหมด",
+      "mobile_close": "ปิดตัวกรอง",
+      "mobile_reveal": "แสดงตัวกรอง",
+      "show_results": "แสดงผลลัพธ์ [x]",
+      "show_results_singular": "แสดงผล [x]",
+      "all": "ทั้งหมด"
+    },
+    "price_range": {
+      "min_label": "จาก",
+      "max_label": "ถึง"
+    },
+    "sorting": {
+      "title": "จัดเรียงตาม"
+    }
+  },
+  "faq": {
+    "view_all": "ดูทั้งหมด",
+    "search": {
+      "label": "ค้นหาคำถามที่พบบ่อย",
+      "no_results": "ขออภัย เราไม่พบคำถามที่ตรงกับการค้นหานั้น"
+    }
+  },
+  "blogs": {
+    "general": {
+      "view_all": "ดูทั้งหมด",
+      "no_matches": "คุณยังไม่มีบทความใดๆ! เมื่อคุณเขียนบทความเสร็จแล้ว บทความนั้นจะแสดงที่นี่"
+    },
+    "article": {
+      "read_more": "อ่านเพิ่มเติม",
+      "back_to_blog_html": "กลับไปยัง {{ blog }}",
+      "older_post": "โพสเก่ากว่า",
+      "newer_post": "โพสใหม่กว่า"
+    },
+    "comments": {
+      "title": "ความคิดเห็น",
+      "success_moderated": "ความคิดเห็นของคุณถูกโพสต์เรียบร้อยแล้ว เราจะเผยแพร่ในอีกสักครู่ เนื่องจากบล็อกของเราอยู่ระหว่างการตรวจสอบ",
+      "success": "ความคิดเห็นของคุณถูกโพสต์สำเร็จแล้ว! ขอบคุณ!",
+      "author_meta_said": "{{ author }} กล่าวว่า:",
+      "form_title": "ฝากความคิดเห็น",
+      "name": "ชื่อ",
+      "email": "อีเมล",
+      "message": "ความคิดเห็น",
+      "post": "โพสต์ความคิดเห็น"
+    },
+    "filtering": {
+      "filter": "กรอง",
+      "all": "ทั้งหมด"
+    },
+    "pagination": {
+      "older_articles": "บทความเก่า",
+      "newer_articles": "บทความใหม่กว่า"
+    }
+  },
+  "customer": {
+    "general": {
+      "return": "กลับสู่ร้านค้า"
+    },
+    "account": {
+      "title": "บัญชีของฉัน",
+      "view_addresses": "ดูที่อยู่",
+      "return": "กลับไปยังรายละเอียดบัญชี"
+    },
+    "orders": {
+      "order_number": "คำสั่ง",
+      "date": "วันที่",
+      "payment_status": "สถานะการชำระเงิน",
+      "fulfillment_status": "สถานะการดำเนินการ",
+      "total": "ทั้งหมด",
+      "none": "คุณยังไม่ได้วางคำสั่งซื้อใดๆ"
+    },
+    "activate_account": {
+      "title": "เปิดใช้งานบัญชี",
+      "subtext": "สร้างรหัสผ่านของคุณเพื่อเปิดใช้งานบัญชีของคุณ"
+    }
+  }
+}
