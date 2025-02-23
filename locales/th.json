@@ -85,7 +85,8 @@
       "backorder": "สินค้าอยู่ในสถานะสั่งซื้อล่วงหน้าและจะจัดส่งทันทีเมื่อมีในคลังอีกครั้ง",
       "decrease": "ลด",
       "increase": "เพิ่มขึ้น",
-      "remove": "ลบ"
+      "remove": "ลบ",
+      "product": "ผลิตภัณฑ์"
     },
     "label": {
       "note": "เพิ่มหมายเหตุลงในคำสั่งซื้อของคุณ"
@@ -108,7 +109,8 @@
       "mobile_reveal": "แสดงตัวกรอง",
       "show_results": "แสดงผลลัพธ์ [x]",
       "show_results_singular": "แสดงผล [x]",
-      "all": "ทั้งหมด"
+      "all": "ทั้งหมด",
+      "submit": "ส่ง"
     },
     "price_range": {
       "min_label": "จาก",
@@ -175,7 +177,125 @@
     },
     "activate_account": {
       "title": "เปิดใช้งานบัญชี",
-      "subtext": "สร้างรหัสผ่านของคุณเพื่อเปิดใช้งานบัญชีของคุณ"
+      "subtext": "สร้างรหัสผ่านของคุณเพื่อเปิดใช้งานบัญชีของคุณ",
+      "password": "รหัสผ่าน",
+      "password_confirm": "ยืนยันรหัสผ่าน",
+      "submit": "เปิดใช้งานบัญชี",
+      "cancel": "ปฏิเสธคำเชิญ"
+    },
+    "recover_password": {
+      "submit": "ส่ง",
+      "title": "รีเซ็ตรหัสผ่านของคุณ",
+      "subtext": "เราจะส่งอีเมลถึงคุณเพื่อรีเซ็ตรหัสผ่านของคุณ",
+      "email": "อีเมล",
+      "cancel": "ยกเลิก"
+    },
+    "order": {
+      "product": "ผลิตภัณฑ์",
+      "shipping": "การส่งสินค้า",
+      "title": "สั่งซื้อ {{ name }}",
+      "cancelled_on": "ยกเลิกคำสั่งซื้อเมื่อ {{ date }}",
+      "cancelled_reason": "เหตุผล: {{ reason }}",
+      "date": "วางเมื่อ {{ date }}",
+      "billing_address": "ที่อยู่สำหรับเรียกเก็บเงิน",
+      "payment_status": "สถานะการชำระเงิน",
+      "shipping_address": "ที่อยู่จัดส่ง",
+      "fulfillment_status": "สถานะการดำเนินการ",
+      "sku": "รหัสสินค้า",
+      "price": "ราคา",
+      "quantity": "ปริมาณ",
+      "total": "ทั้งหมด",
+      "fulfilled_on": "สำเร็จแล้ว {{ date }}",
+      "subtotal": "ยอดรวมย่อย",
+      "tax": "ภาษี"
+    },
+    "addresses": {
+      "title": "ที่อยู่ของคุณ",
+      "add_new": "เพิ่มที่อยู่ใหม่",
+      "first_name": "ชื่อจริง",
+      "last_name": "นามสกุล",
+      "company": "บริษัท",
+      "address1": "ที่อยู่ 1",
+      "address2": "ที่อยู่ 2",
+      "city": "เมือง",
+      "country": "ประเทศ",
+      "province": "จังหวัด",
+      "zip": "รหัสไปรษณีย์",
+      "phone": "โทรศัพท์",
+      "set_default": "ตั้งค่าเป็นที่อยู่เริ่มต้น",
+      "add": "เพิ่มที่อยู่",
+      "cancel": "ยกเลิก",
+      "default": "ค่าเริ่มต้น",
+      "edit": "แก้ไข",
+      "delete_confirm": "คุณแน่ใจว่าต้องการลบที่อยู่นี้หรือไม่?",
+      "delete": "ลบ",
+      "edit_address": "แก้ไขที่อยู่",
+      "update": "อัปเดตที่อยู่"
+    },
+    "login": {
+      "title": "เข้าสู่ระบบ",
+      "alternate_provider_separator": "หรือ",
+      "email": "อีเมล",
+      "password": "รหัสผ่าน",
+      "forgot_password": "ลืมรหัสผ่านใช่ไหม?",
+      "sign_in": "เข้าสู่ระบบ",
+      "register": "สร้างบัญชี",
+      "return_to_store": "กลับสู่ร้านค้า",
+      "guest_title": "ดำเนินการต่อในฐานะแขก",
+      "guest_continue": "ดำเนินการต่อ"
+    },
+    "register": {
+      "title": "สร้างบัญชี",
+      "first_name": "ชื่อจริง",
+      "last_name": "นามสกุล",
+      "email": "อีเมล",
+      "password": "รหัสผ่าน",
+      "submit": "สร้าง",
+      "cancel": "กลับสู่ร้านค้า"
+    },
+    "reset_password": {
+      "title": "รีเซ็ตรหัสผ่าน",
+      "subtext": "กรอกรหัสผ่านใหม่สำหรับ {{ email }}",
+      "password": "รหัสผ่าน",
+      "password_confirm": "ยืนยันรหัสผ่าน",
+      "submit": "รีเซ็ตรหัสผ่าน"
+    }
+  },
+  "contact": {
+    "form": {
+      "post_success": "ขอบคุณที่ติดต่อเรา เราจะติดต่อกลับโดยเร็วที่สุด",
+      "post_error": "ขออภัย เราไม่สามารถส่งคำถามของคุณได้ โปรดแก้ไขข้อความต่อไปนี้และส่งคำถามอีกครั้ง:",
+      "message": "ข้อความ",
+      "name": "ชื่อ",
+      "email": "อีเมล",
+      "send": "ส่ง"
+    }
+  },
+  "storefront_password": {
+    "login": {
+      "link": "เข้าใช้รหัสผ่าน",
+      "label": "เข้าสู่ร้านค้าโดยใช้รหัสผ่าน:",
+      "button": "เข้า",
+      "admin_link_html": "คุณเป็นเจ้าของร้านใช่ไหม? <a href=\"/admin\">เข้าสู่ระบบที่นี่</a>"
+    },
+    "signup": {
+      "success": "ขอบคุณสำหรับความสนใจของคุณ! เราจะคอยแจ้งข้อมูลอัปเดตให้คุณทราบอย่างแน่นอน"
+    },
+    "general": {
+      "powered_by": "ร้านนี้จะถูกขับเคลื่อนโดย"
+    }
+  },
+  "store_availability": {
+    "general": {
+      "pick_up_available_at_html": "มีบริการรับสินค้าที่ <strong>{{ location_name }}</strong>",
+      "view_store_info": "ดูข้อมูลร้านค้า",
+      "check_other_stores": "ตรวจสอบความพร้อมจำหน่ายที่ร้านค้าอื่นๆ",
+      "pick_up_unavailable_at_html": "ไม่สามารถรับสินค้าได้ในขณะนี้ที่ <strong>{{ location_name }}</strong>",
+      "miles": "ฉัน",
+      "kilometers": "กม.",
+      "pick_up_available": "มีบริการรับสินค้า",
+      "pick_up_currently_unavailable": "ไม่สามารถรับสินค้าได้ในขณะนี้",
+      "invalid_location_address": "ติดต่อร้านค้าเพื่อยืนยันที่อยู่"
     }
   }
 }
