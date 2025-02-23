@@ -90,6 +90,25 @@
             "tab_4_title": "",
             "tab_4_content": ""
           }
+        },
+        "trust_icons_EdqeQg": {
+          "type": "trust_icons",
+          "disabled": true,
+          "settings": {
+            "icon_size": 30,
+            "show_icon1": true,
+            "text1": "<p>Trust label</p>",
+            "icon1": "check_mark",
+            "show_icon2": true,
+            "text2": "<p>Trust label</p>",
+            "icon2": "check_mark",
+            "show_icon3": true,
+            "text3": "<p>Trust label</p>",
+            "icon3": "check_mark",
+            "show_icon4": true,
+            "text4": "<p>Trust label</p>",
+            "icon4": "check_mark"
+          }
         }
       },
       "block_order": [
@@ -101,7 +120,8 @@
         "variant_picker",
         "inventory_level",
         "buy_buttons",
-        "tabs"
+        "tabs",
+        "trust_icons_EdqeQg"
       ],
       "settings": {
         "media_style": "collage",
