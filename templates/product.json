@@ -108,7 +108,7 @@
         "enable_video_looping": false,
         "scroll_to_variant_media": true,
         "highlight_selected_media": true,
-        "variant_media_grouping": false,
+        "variant_media_grouping": true,
         "variant_media_grouping_option": "Color,Colour,Couleur,Farbe"
       }
     },

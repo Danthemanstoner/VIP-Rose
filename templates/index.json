@@ -257,10 +257,11 @@
         "1601554848772-0": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/23-07-21_5417.jpg",
             "video_external": "",
             "enlarge_image": false,
-            "subheading": "Gallery",
-            "title": "Tell your story",
+            "subheading": "",
+            "title": "Bunch of Roses",
             "title_width": 12,
             "heading_h1": false,
             "button_label": "Shop this",
@@ -271,10 +272,11 @@
         "1601560664254": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/23-07-06_4583.jpg",
             "video_external": "",
             "enlarge_image": true,
-            "subheading": "Gallery",
-            "title": "Tell your story",
+            "subheading": "",
+            "title": "White rose",
             "title_width": 12,
             "heading_h1": false,
             "button_label": "Shop this",
@@ -285,10 +287,11 @@
         "1601554848772-2": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/23-07-06_4534.jpg",
             "video_external": "",
             "enlarge_image": true,
-            "subheading": "Gallery",
-            "title": "Tell your story",
+            "subheading": "",
+            "title": "Wholesale",
             "title_width": 12,
             "heading_h1": false,
             "button_label": "Shop this",
@@ -299,10 +302,11 @@
         "1601554848772-1": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/23-07-21_5420.jpg",
             "video_external": "",
             "enlarge_image": false,
-            "subheading": "Gallery",
-            "title": "Tell your story",
+            "subheading": "",
+            "title": "More Roses",
             "title_width": 12,
             "heading_h1": false,
             "button_label": "Shop this",
@@ -323,7 +327,7 @@
         "desktop_image_height": 400,
         "mobile_image_height": 400,
         "title_size": 40,
-        "enable_margin": true,
+        "enable_margin": false,
         "full_width": true,
         "enable_carousel": true,
         "overlay_style_tint": true,
