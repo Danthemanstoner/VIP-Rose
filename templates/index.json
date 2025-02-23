@@ -153,6 +153,7 @@
         "1482141870755-0",
         "1499426736627"
       ],
+      "disabled": true,
       "settings": {
         "height": "fixed",
         "height_desktop": 700,
