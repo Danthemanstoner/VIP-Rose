@@ -9,6 +9,89 @@
  */
 {
   "sections": {
+    "gallery": {
+      "type": "gallery",
+      "blocks": {
+        "1601554848772-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/23-07-21_5417.jpg",
+            "video_external": "",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "Bunch of Roses",
+            "title_width": 12,
+            "heading_h1": false,
+            "button_label": "Shop this",
+            "link": "",
+            "text_alignment": "position--left position--bottom"
+          }
+        },
+        "1601560664254": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/23-07-06_4583.jpg",
+            "video_external": "",
+            "enlarge_image": true,
+            "subheading": "",
+            "title": "White rose",
+            "title_width": 12,
+            "heading_h1": false,
+            "button_label": "Shop this",
+            "link": "",
+            "text_alignment": "position--left position--bottom"
+          }
+        },
+        "1601554848772-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/23-07-06_4534.jpg",
+            "video_external": "",
+            "enlarge_image": true,
+            "subheading": "",
+            "title": "Wholesale",
+            "title_width": 12,
+            "heading_h1": false,
+            "button_label": "Shop this",
+            "link": "",
+            "text_alignment": "position--left position--bottom"
+          }
+        },
+        "1601554848772-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/23-07-21_5420.jpg",
+            "video_external": "",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "More Roses",
+            "title_width": 12,
+            "heading_h1": false,
+            "button_label": "Shop this",
+            "link": "",
+            "text_alignment": "position--left position--bottom"
+          }
+        }
+      },
+      "block_order": [
+        "1601554848772-0",
+        "1601560664254",
+        "1601554848772-2",
+        "1601554848772-1"
+      ],
+      "settings": {
+        "title": "",
+        "grid": 2,
+        "desktop_image_height": 400,
+        "mobile_image_height": 400,
+        "title_size": 40,
+        "enable_margin": false,
+        "full_width": true,
+        "enable_carousel": true,
+        "overlay_style_tint": true,
+        "alternate_bg_color": false
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -251,89 +334,6 @@
         "alternate_bg_color": false
       }
     },
-    "gallery": {
-      "type": "gallery",
-      "blocks": {
-        "1601554848772-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/23-07-21_5417.jpg",
-            "video_external": "",
-            "enlarge_image": false,
-            "subheading": "",
-            "title": "Bunch of Roses",
-            "title_width": 12,
-            "heading_h1": false,
-            "button_label": "Shop this",
-            "link": "",
-            "text_alignment": "position--left position--bottom"
-          }
-        },
-        "1601560664254": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/23-07-06_4583.jpg",
-            "video_external": "",
-            "enlarge_image": true,
-            "subheading": "",
-            "title": "White rose",
-            "title_width": 12,
-            "heading_h1": false,
-            "button_label": "Shop this",
-            "link": "",
-            "text_alignment": "position--left position--bottom"
-          }
-        },
-        "1601554848772-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/23-07-06_4534.jpg",
-            "video_external": "",
-            "enlarge_image": true,
-            "subheading": "",
-            "title": "Wholesale",
-            "title_width": 12,
-            "heading_h1": false,
-            "button_label": "Shop this",
-            "link": "",
-            "text_alignment": "position--left position--bottom"
-          }
-        },
-        "1601554848772-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/23-07-21_5420.jpg",
-            "video_external": "",
-            "enlarge_image": false,
-            "subheading": "",
-            "title": "More Roses",
-            "title_width": 12,
-            "heading_h1": false,
-            "button_label": "Shop this",
-            "link": "",
-            "text_alignment": "position--left position--bottom"
-          }
-        }
-      },
-      "block_order": [
-        "1601554848772-0",
-        "1601560664254",
-        "1601554848772-2",
-        "1601554848772-1"
-      ],
-      "settings": {
-        "title": "",
-        "grid": 2,
-        "desktop_image_height": 400,
-        "mobile_image_height": 400,
-        "title_size": 40,
-        "enable_margin": false,
-        "full_width": true,
-        "enable_carousel": true,
-        "overlay_style_tint": true,
-        "alternate_bg_color": false
-      }
-    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -558,13 +558,13 @@
     }
   },
   "order": [
+    "gallery",
     "slideshow",
     "rich-text",
     "accordions_3eFK7R",
     "featured-collection",
     "background-video",
     "testimonials",
-    "gallery",
     "collection-list",
     "image-with-text",
     "text-columns-with-images",
