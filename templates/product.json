@@ -53,6 +53,13 @@
             "size_chart_page": ""
           }
         },
+        "text_hJ8VQh": {
+          "type": "text",
+          "settings": {
+            "text": "Rose Type: {{ product.metafields.custom.rose_type.value }}",
+            "text_style": "body"
+          }
+        },
         "text_3ijVTc": {
           "type": "text",
           "settings": {
@@ -132,6 +139,7 @@
         "price",
         "rating",
         "variant_picker",
+        "text_hJ8VQh",
         "text_3ijVTc",
         "text_UzfgeU",
         "inventory_level",
