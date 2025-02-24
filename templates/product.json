@@ -53,6 +53,13 @@
             "size_chart_page": ""
           }
         },
+        "text_3ijVTc": {
+          "type": "text",
+          "settings": {
+            "text": "Vase Life: {{ product.metafields.custom.vase_life.value }}",
+            "text_style": "body"
+          }
+        },
         "inventory_level": {
           "type": "inventory_level",
           "settings": {
@@ -118,6 +125,7 @@
         "price",
         "rating",
         "variant_picker",
+        "text_3ijVTc",
         "inventory_level",
         "buy_buttons",
         "tabs",
