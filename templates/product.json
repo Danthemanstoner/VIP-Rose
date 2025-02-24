@@ -60,6 +60,13 @@
             "text_style": "body"
           }
         },
+        "text_UzfgeU": {
+          "type": "text",
+          "settings": {
+            "text": "Grower: {{ product.metafields.custom.grower.value }}",
+            "text_style": "body"
+          }
+        },
         "inventory_level": {
           "type": "inventory_level",
           "settings": {
@@ -126,6 +133,7 @@
         "rating",
         "variant_picker",
         "text_3ijVTc",
+        "text_UzfgeU",
         "inventory_level",
         "buy_buttons",
         "tabs",
