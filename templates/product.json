@@ -60,6 +60,20 @@
             "text_style": "body"
           }
         },
+        "text_zw9UeP": {
+          "type": "text",
+          "settings": {
+            "text": "Head Size: {{ product.metafields.custom.head_size.value }}",
+            "text_style": "body"
+          }
+        },
+        "text_yFqxW4": {
+          "type": "text",
+          "settings": {
+            "text": "Stem Length: {{ product.metafields.custom.stem_length.value }}",
+            "text_style": "body"
+          }
+        },
         "text_3ijVTc": {
           "type": "text",
           "settings": {
@@ -140,6 +154,8 @@
         "rating",
         "variant_picker",
         "text_hJ8VQh",
+        "text_zw9UeP",
+        "text_yFqxW4",
         "text_3ijVTc",
         "text_UzfgeU",
         "inventory_level",
