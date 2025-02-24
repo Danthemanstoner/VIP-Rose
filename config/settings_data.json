@@ -172,9 +172,10 @@
           "1601536191916": {
             "type": "text",
             "settings": {
-              "image_width": 100,
-              "title": "Talk about your store",
-              "text": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
+              "image": "shopify://shop_images/vip_shopify.png",
+              "image_width": 50,
+              "title": "Why VIP Rose?",
+              "text": "<p>VIP Rose Bangkok – Thailand’s largest importer of premium roses. Explore our exquisite selection of fresh, high-quality roses sourced from the best growers worldwide. Perfect for florists, events, and special occasions. Fast delivery across Thailand!</p>",
               "show_social_icons": true,
               "enable_follow_on_shop": false
             }
