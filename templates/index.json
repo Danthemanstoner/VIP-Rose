@@ -329,6 +329,7 @@
         "1601538737164-0",
         "1601538737164-1"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "button_style": "secondary",
@@ -376,6 +377,7 @@
         "1648220659c91ed362-3",
         "1648220659c91ed362-4"
       ],
+      "disabled": true,
       "settings": {
         "title": "Collection list",
         "layout": "carousel",
@@ -387,6 +389,7 @@
     },
     "image-with-text": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "subheading": "Subheading",
         "title": "Media with text",
@@ -448,6 +451,7 @@
         "1601557215944-0",
         "1601557215944-1"
       ],
+      "disabled": true,
       "settings": {
         "title": "Text columns with media",
         "text_alignment": "center",
@@ -460,14 +464,14 @@
     "scrolling-banner": {
       "type": "scrolling-banner",
       "settings": {
-        "text": "Free shipping & returns –",
+        "text": "Thailand’s largest importer of premium roses.",
         "link": "",
-        "text_size": 60,
+        "text_size": 22,
         "line_height": 3,
-        "speed": 14,
+        "speed": 11,
         "direction": "left",
         "font": "heading",
-        "space_x": false,
+        "space_x": true,
         "stencil_all_text": false,
         "stencil_text": "",
         "overlay_style_tint": false,
@@ -524,6 +528,7 @@
         "1648223128d36c17cb-4",
         "1648223128d36c17cb-5"
       ],
+      "disabled": true,
       "settings": {
         "product": "",
         "show_backorder_text": true,
