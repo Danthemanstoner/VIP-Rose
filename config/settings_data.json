@@ -107,6 +107,27 @@
     "sections": {
       "header": {
         "type": "header",
+        "blocks": {
+          "image_8X4zx6": {
+            "type": "image",
+            "settings": {
+              "menu_item": "",
+              "subheading1": "Subheading",
+              "title1": "Tell your story",
+              "text1": "<p>Pair text with an image to tell a story</p>",
+              "button_label1": "",
+              "cta_link1": "",
+              "subheading2": "Subheading",
+              "title2": "Tell your story",
+              "text2": "<p>Pair text with an image to tell a story</p>",
+              "button_label2": "",
+              "cta_link2": ""
+            }
+          }
+        },
+        "block_order": [
+          "image_8X4zx6"
+        ],
         "custom_css": [
           ".cc-announcement__inner {margin-left: -18px;}"
         ],
