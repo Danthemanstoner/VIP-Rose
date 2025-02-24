@@ -46,7 +46,7 @@
     background: linear-gradient(to right, #00f, #f0f, #f00, rgb(0, 220, 62), rgb(255, 183, 0));
     width: 100%; /* Set width to full to always show the underline */
     background-size: 200% 100%; /* Extend the background size for the animation */
-    animation: moveGradient 8s ease-in-out infinite; /* Apply the animation */
+    animation: moveGradient 3s linear infinite; /* Apply the animation */
   }
 
   @keyframes slideIn {
@@ -57,12 +57,9 @@
   }
 
   @keyframes moveGradient {
-    0%, 100% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
   }
 </style>
 
