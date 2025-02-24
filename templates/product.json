@@ -25,6 +25,12 @@
             "heading_h1": true
           }
         },
+        "animated_text": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% render 'animated-text', text: 'Limited Edition', class: 'custom-animated-text', underline_class: 'underline-animation' %}"
+          }
+        },
         "text_3XMqbb": {
           "type": "text",
           "settings": {
@@ -144,17 +150,12 @@
             "text4": "<p>Trust label</p>",
             "icon4": "check_mark"
           }
-        },
-        "animated_text": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% render 'animated-text', text: 'Limited Edition', class: 'custom-animated-text', underline_class: 'underline-animation' %}"
-          }
         }
       },
       "block_order": [
         "vendor_and_type",
         "title",
+        "animated_text",
         "text_3XMqbb",
         "price",
         "rating",
@@ -164,7 +165,6 @@
         "text_yFqxW4",
         "text_3ijVTc",
         "text_UzfgeU",
-        "animated_text",
         "buy_buttons",
         "inventory_level",
         "tabs",
