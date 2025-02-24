@@ -191,7 +191,7 @@
             "type": "newsletter",
             "settings": {
               "title": "Newsletter",
-              "text": "<p>A short sentence describing what someone will receive when signing up to newsletters.</p>",
+              "text": "<p>Join the VIP Rose Mailing List to keep up to date with exclusive offers, news and events</p>",
               "show_social_icons_newsletter": false
             }
           }
