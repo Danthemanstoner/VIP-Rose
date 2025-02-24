@@ -203,7 +203,7 @@
         ],
         "settings": {
           "lower_menu": "",
-          "show_powered_by": true,
+          "show_powered_by": false,
           "show_payment_icons": true,
           "show_country_selector": true,
           "show_language_selector": true
