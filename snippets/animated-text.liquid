@@ -1,65 +1,50 @@
 {% comment %}
-  Animated Text Snippet with Icon
+  Animated Text Snippet with Icon and Gradient Underline
   Params:
     text: string - The text to display
     class: string - Additional classes for styling
-    underline_class: string - Classes for the underline
 {% endcomment %}
 
-<div class="{{ class }}">
-  <div class="relative flex items-center gap-2" style="align-items: center; display: flex;">
-    <div
-      style="display: flex; overflow: hidden; align-items: center;"
-      class="text-4xl font-bold text-center {{ textClassName }}"
-    >
+<div class="{{ class }} relative">
+  <!-- Text and Icon Container -->
+  <div class="flex items-center gap-2" style="position: relative; overflow: visible;">
+    <div class="text-4xl font-bold text-center custom-animated-text" style="display: flex; align-items: center;">
       {% for char in text %}
-        <span key="{{ forloop.index0 }}">
+        <span class="animated-text__char" style="display: inline-block; opacity: 0; transform: translateY(20px);">
           {{ char }}
         </span>
       {% endfor %}
     </div>
-    <img src="https://cdn.shopify.com/s/files/1/0681/1690/6166/files/blk_vip_shopify.png?v=1740052927" alt="VIP Icon" style="height: 1em; vertical-align: middle;">
+    <img src="https://cdn.shopify.com/s/files/1/0681/1690/6166/files/blk_vip_shopify.png?v=1740052927" 
+         alt="VIP Icon" 
+         class="icon-vip"
+         style="height: 1.2em; vertical-align: middle;">
   </div>
-  <div
-    style="position: absolute; height: 2px; background: linear-gradient(to right, #00f, #f0f, #f00, rgb(0, 220, 62), rgb(255, 183, 0)); width: 100%;"
-    class="{{ underlineHeight }} {{ underlineOffset }} bg-gradient-to-r {{ underlineGradient }} {{ underlineClassName }}"
-  ></div>
+
+  <!-- Gradient Underline -->
+  <div class="animated-text__underline" style="position: absolute; left: 0; bottom: -5px; height: 2px; width: 100%; background: linear-gradient(to right, #00f, #f0f, #f00, rgb(0, 220, 62), rgb(255, 183, 0)); background-size: 200% 100%; animation: moveGradient 3s linear infinite;"></div>
 </div>
 
 <style>
-  .custom-animated-text .animated-text__char {
-    display: inline-block;
-    opacity: 0;
-    transform: translateY(20px);
+  /* Animation for Characters */
+  .animated-text__char {
     animation: slideIn 0.5s forwards;
     animation-delay: calc(var(--char-index) * 0.1s);
-    font-size: 100%; /* Ensure font size is appropriate */
   }
 
-  .custom-animated-text .animated-text__title {
-    text-align: left; /* Align text to the left */
-    font-size: 100%; /* Ensure font size is appropriate */
+  /* Fix the gradient movement */
+  @keyframes moveGradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
   }
 
-  .custom-animated-text .animated-text__underline {
-    height: 2px;
-    background: linear-gradient(to right, #00f, #f0f, #f00, rgb(0, 220, 62), rgb(255, 183, 0));
-    width: 100%; /* Set width to full to always show the underline */
-    background-size: 200% 100%; /* Extend the background size for the animation */
-    animation: moveGradient 3s linear infinite; /* Apply the animation */
-  }
-
+  /* Text Slide-In */
   @keyframes slideIn {
     to {
       opacity: 1;
       transform: translateY(0);
     }
-  }
-
-  @keyframes moveGradient {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
   }
 </style>
 
