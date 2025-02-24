@@ -28,7 +28,7 @@
         "animated_text": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% render 'animated-text', text: 'Exclusive Colour', class: 'custom-animated-text', underline_class: 'underline-animation' %}"
+            "custom_liquid": "{% render 'animated-text', text: 'Exclusive Colours', class: 'custom-animated-text', underline_class: 'underline-animation' %}"
           }
         },
         "text_3XMqbb": {
