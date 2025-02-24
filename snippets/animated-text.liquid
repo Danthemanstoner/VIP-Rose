@@ -1,5 +1,5 @@
 {% comment %}
-  Animated Text Snippet with Icon
+  Animated Text Snippet
   Params:
     text: string - The text to display
     class: string - Additional classes for styling
@@ -7,35 +7,17 @@
 {% endcomment %}
 
 <div class="{{ class }}">
-  <div class="relative flex items-center gap-2">
+  <h1 class="animated-text__title">
+    {% for char in text %}
+      <span class="animated-text__char">{{ char }}</span>
+    {% endfor %}
+  </h1>
+  <div class="animated-text__underline {{ underline_class }}"></div>
+</div>
+
+<div class="animated-text">
     <img src="https://cdn.shopify.com/s/files/1/0681/1690/6166/files/blk_vip_shopify.png?v=1740052927" alt="VIP Icon" style="height: 1em; vertical-align: middle;">
-    <motion.div
-      style={{ display: "flex", overflow: "hidden" }}
-      variants={container}
-      initial="hidden"
-      animate={replay ? "visible" : "hidden"}
-      className={cn("text-4xl font-bold text-center", textClassName)}
-    >
-      {% for char in text %}
-        <motion.span key={{ forloop.index0 }} variants={child}>
-          {{ char }}
-        </motion.span>
-      {% endfor %}
-    </motion.div>
-  </div>
-  <motion.div
-    variants={lineVariants}
-    initial="hidden"
-    animate="visible"
-    className={cn(
-      "absolute",
-      underlineHeight,
-      underlineOffset,
-      "bg-gradient-to-r",
-      underlineGradient,
-      underlineClassName
-    )}
-  />
+    {{ text }}
 </div>
 
 <style>
@@ -45,20 +27,20 @@
     transform: translateY(20px);
     animation: slideIn 0.5s forwards;
     animation-delay: calc(var(--char-index) * 0.1s);
-    font-size: 100%; /* Ensure font size is appropriate */
+    font-size: 100%;
   }
 
   .custom-animated-text .animated-text__title {
-    text-align: left; /* Align text to the left */
-    font-size: 100%; /* Ensure font size is appropriate */
+    text-align: left;
+    font-size: 100%;
   }
 
   .custom-animated-text .animated-text__underline {
     height: 2px;
-    background: linear-gradient(to right, #00f, #f0f, #f00);
-    width: 100%; /* Set width to full to always show the underline */
-    background-size: 200% 100%; /* Extend the background size for the animation */
-    animation: moveGradient 3s linear infinite; /* Apply the animation */
+    background: linear-gradient(to right, #00f, #f0f, #f00, rgb(0, 220, 62), rgb(255, 183, 0));
+    width: 30%;
+    background-size: 200% 100%;
+    animation: moveGradient 2s linear infinite;
   }
 
   @keyframes slideIn {
