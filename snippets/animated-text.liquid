@@ -1,0 +1,53 @@
+{% comment %}
+  Animated Text Snippet
+  Params:
+    text: string - The text to display
+    class: string - Additional classes for styling
+    underline_class: string - Classes for the underline
+{% endcomment %}
+
+<div class="{{ class }}">
+  <h1 class="animated-text__title">
+    {% for char in text %}
+      <span class="animated-text__char">{{ char }}</span>
+    {% endfor %}
+  </h1>
+  <div class="animated-text__underline {{ underline_class }}"></div>
+</div>
+
+<style>
+  .animated-text__char {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: slideIn 0.5s forwards;
+    animation-delay: calc(var(--char-index) * 0.1s);
+  }
+
+  .animated-text__underline {
+    height: 2px;
+    background: linear-gradient(to right, #00f, #f0f, #f00);
+    width: 0;
+    transition: width 0.8s ease-out;
+  }
+
+  .animated-text__title:hover + .animated-text__underline {
+    width: 100%;
+  }
+
+  @keyframes slideIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const chars = document.querySelectorAll('.animated-text__char');
+    chars.forEach((char, index) => {
+      char.style.setProperty('--char-index', index);
+    });
+  });
+</script>
