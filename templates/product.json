@@ -174,7 +174,7 @@
         "media_style": "collage",
         "sticky_behaviour": "bottom",
         "full_width": false,
-        "show_backorder_text": true,
+        "show_backorder_text": false,
         "slide_nav_style": "dots",
         "media_crop": "center",
         "enable_zoom": true,
