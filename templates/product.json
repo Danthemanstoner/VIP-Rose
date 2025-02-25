@@ -173,7 +173,7 @@
       "settings": {
         "media_style": "collage",
         "sticky_behaviour": "bottom",
-        "full_width": true,
+        "full_width": false,
         "show_backorder_text": true,
         "slide_nav_style": "dots",
         "media_crop": "center",
