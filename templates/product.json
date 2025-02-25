@@ -192,7 +192,7 @@
       "type": "product-recommendations",
       "settings": {
         "show_product_recommendations": true,
-        "title": "You may also like",
+        "title": "Customers Also Loved These",
         "hide_swatches": false,
         "show_vendor": false,
         "grid": 3
