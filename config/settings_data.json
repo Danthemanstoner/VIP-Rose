@@ -56,7 +56,7 @@
     "collection_hover_effect": "info",
     "collection_show_product_count": true,
     "swatch_enabled": false,
-    "swatch_method": "image",
+    "swatch_method": "standard",
     "prod_block_swatches": true,
     "swatch_use_prod_images": true,
     "swatch_prod_images_shape": "circle",
