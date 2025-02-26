@@ -49,14 +49,11 @@
           "disabled": true,
           "settings": {}
         },
-        "variant_picker": {
-          "type": "variant_picker",
+        "text_ec8kCt": {
+          "type": "text",
           "settings": {
-            "variant_style": "underlined",
-            "show_realtime_availability": true,
-            "show_size_chart": false,
-            "size_chart_variant": "Size",
-            "size_chart_page": ""
+            "text": "Colour: {{ product.metafields.custom.colour.value }}",
+            "text_style": "body"
           }
         },
         "text_hJ8VQh": {
@@ -92,6 +89,16 @@
           "settings": {
             "text": "Grower: {{ product.metafields.custom.grower.value }}",
             "text_style": "body"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_style": "dropdown",
+            "show_realtime_availability": true,
+            "show_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
           }
         },
         "buy_buttons": {
@@ -160,12 +167,13 @@
         "text_3XMqbb",
         "price",
         "rating",
-        "variant_picker",
+        "text_ec8kCt",
         "text_hJ8VQh",
         "text_zw9UeP",
         "text_yFqxW4",
         "text_3ijVTc",
         "text_UzfgeU",
+        "variant_picker",
         "buy_buttons",
         "inventory_level",
         "tabs",

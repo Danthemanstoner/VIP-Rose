@@ -55,7 +55,7 @@
     "collection_image_position": "center",
     "collection_hover_effect": "info",
     "collection_show_product_count": true,
-    "swatch_enabled": true,
+    "swatch_enabled": false,
     "swatch_method": "image",
     "prod_block_swatches": true,
     "swatch_use_prod_images": true,
