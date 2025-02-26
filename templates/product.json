@@ -49,6 +49,13 @@
           "disabled": true,
           "settings": {}
         },
+        "text_ec8kCt": {
+          "type": "text",
+          "settings": {
+            "text": "Colour: {{ product.metafields.custom.colour.value }}",
+            "text_style": "body"
+          }
+        },
         "text_hJ8VQh": {
           "type": "text",
           "settings": {
@@ -160,6 +167,7 @@
         "text_3XMqbb",
         "price",
         "rating",
+        "text_ec8kCt",
         "text_hJ8VQh",
         "text_zw9UeP",
         "text_yFqxW4",
