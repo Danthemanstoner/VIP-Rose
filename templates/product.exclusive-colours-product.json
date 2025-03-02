@@ -1,0 +1,214 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor_and_type": {
+          "type": "vendor_and_type",
+          "settings": {
+            "show_vendor": true,
+            "show_type": false
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_h1": true
+          }
+        },
+        "animated_text": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% render 'animated-text', text: 'Exclusive Colours', class: 'custom-animated-text', underline_class: 'underline-animation' %}"
+          }
+        },
+        "text_3XMqbb": {
+          "type": "text",
+          "settings": {
+            "text": "Wholesale Price:",
+            "text_style": "body"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {}
+        },
+        "text_ec8kCt": {
+          "type": "text",
+          "settings": {
+            "text": "Colour: {{ product.metafields.custom.colour.value }}",
+            "text_style": "body"
+          }
+        },
+        "text_hJ8VQh": {
+          "type": "text",
+          "settings": {
+            "text": "Rose Type: {{ product.metafields.custom.rose_type.value }}",
+            "text_style": "bold"
+          }
+        },
+        "text_zw9UeP": {
+          "type": "text",
+          "settings": {
+            "text": "Head Size: {{ product.metafields.custom.head_size.value }}",
+            "text_style": "body"
+          }
+        },
+        "text_yFqxW4": {
+          "type": "text",
+          "settings": {
+            "text": "Stem Length: {{ product.metafields.custom.stem_length.value }}",
+            "text_style": "body"
+          }
+        },
+        "text_3ijVTc": {
+          "type": "text",
+          "settings": {
+            "text": "Vase Life: {{ product.metafields.custom.vase_life.value }}",
+            "text_style": "body"
+          }
+        },
+        "text_UzfgeU": {
+          "type": "text",
+          "settings": {
+            "text": "Grower: {{ product.metafields.custom.grower.value }}",
+            "text_style": "body"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_style": "dropdown",
+            "show_realtime_availability": true,
+            "show_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": false,
+            "show_pickup_availability": false,
+            "enable_mobile_sticky_cart": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "inventory_level": {
+          "type": "inventory_level",
+          "disabled": true,
+          "settings": {
+            "inventory_threshold": 10,
+            "show_inventory_notice": "low",
+            "show_inventory_count": "low",
+            "show_inventory_indicator_bar": true,
+            "col_indicator_below": "#dd9a1a",
+            "col_indicator_above": "#108043"
+          }
+        },
+        "tabs": {
+          "type": "tabs",
+          "settings": {
+            "show_product_description": true,
+            "show_product_reviews": false,
+            "custom_reviews": "",
+            "tab_2_page": "",
+            "tab_2_title": "Flower Care",
+            "tab_2_content": "<p>here is the content</p>",
+            "tab_3_page": "",
+            "tab_3_title": "Shipping & Returns",
+            "tab_3_content": "<p>Information here</p>",
+            "tab_4_page": "",
+            "tab_4_title": "",
+            "tab_4_content": ""
+          }
+        },
+        "trust_icons_EdqeQg": {
+          "type": "trust_icons",
+          "disabled": true,
+          "settings": {
+            "icon_size": 30,
+            "show_icon1": true,
+            "text1": "<p>Trust label</p>",
+            "icon1": "check_mark",
+            "show_icon2": true,
+            "text2": "<p>Trust label</p>",
+            "icon2": "check_mark",
+            "show_icon3": true,
+            "text3": "<p>Trust label</p>",
+            "icon3": "check_mark",
+            "show_icon4": true,
+            "text4": "<p>Trust label</p>",
+            "icon4": "check_mark"
+          }
+        }
+      },
+      "block_order": [
+        "vendor_and_type",
+        "title",
+        "animated_text",
+        "text_3XMqbb",
+        "price",
+        "rating",
+        "text_ec8kCt",
+        "text_hJ8VQh",
+        "text_zw9UeP",
+        "text_yFqxW4",
+        "text_3ijVTc",
+        "text_UzfgeU",
+        "variant_picker",
+        "buy_buttons",
+        "inventory_level",
+        "tabs",
+        "trust_icons_EdqeQg"
+      ],
+      "settings": {
+        "media_style": "collage",
+        "sticky_behaviour": "bottom",
+        "full_width": false,
+        "show_backorder_text": false,
+        "slide_nav_style": "dots",
+        "media_crop": "center",
+        "enable_zoom": true,
+        "zoom_cursor": "plus-light",
+        "show_thumbnails": true,
+        "enable_video_looping": false,
+        "scroll_to_variant_media": true,
+        "highlight_selected_media": true,
+        "variant_media_grouping": true,
+        "variant_media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "title": "Customers Also Loved These",
+        "hide_swatches": false,
+        "show_vendor": false,
+        "grid": 3
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations"
+  ]
+}
