@@ -16,7 +16,7 @@
         "title": "{{ collection.title }}",
         "title_size": 28,
         "title_width": 12,
-        "text": "<p>Seo Content Here Utilize keyword research tools to identify high-volume search terms relevant to your products.</p>",
+        "text": "<p>Seo Content Here Utilize keyword research tools to identify high-volume search terms relevant to your <a href=\"/products/red-rose-ecuador-test-item\" title=\"Red Rose Ecuador - Test Item\">products</a>.</p>",
         "button_label": "",
         "button_link": "",
         "text_alignment": "center",
