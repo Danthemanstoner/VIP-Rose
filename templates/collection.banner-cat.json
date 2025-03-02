@@ -9,11 +9,33 @@
  */
 {
   "sections": {
+    "image_with_text_LieyPk": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "",
+        "title": "{{ collection.title }}",
+        "title_size": 28,
+        "title_width": 12,
+        "text": "<p>Seo Content Here Utilize keyword research tools to identify high-volume search terms relevant to your products.</p>",
+        "button_label": "",
+        "button_link": "",
+        "text_alignment": "center",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify://shop_images/23-07-06_4527.jpg",
+        "image_width": 100,
+        "image_position": "right",
+        "media_size": "cover",
+        "color_scheme": "standard",
+        "color_bg": "",
+        "color_text": ""
+      }
+    },
     "main": {
       "type": "main-collection",
       "settings": {
-        "show_collection_content": true,
-        "show_collection_image": true,
+        "show_collection_content": false,
+        "show_collection_image": false,
         "description_position": "top",
         "layout": "rows",
         "grid": 3,
@@ -34,6 +56,7 @@
     }
   },
   "order": [
+    "image_with_text_LieyPk",
     "main"
   ]
 }
